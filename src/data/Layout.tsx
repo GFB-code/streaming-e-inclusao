@@ -1,64 +1,32 @@
 export default function Layout() {
   return (
-    <main className="
-    max-w-[900px] 
-    m-auto 
-    p-[40px] 
-    bg-[#f4f6f9]
-    text-stone-950">
-      <div className="
-      bg-linear-to-r from-[#1e3c72] to-[#2a5298] 
-      p-[30px]
-      border-[6px]
-      mb-[30px]
-      text-center">
-          <h1 className="mb-[10px] text-xl extrabold">Streaming e Inclusão</h1>
-          <p className="text-[#d2e1ff] semi-bold">Como a tecnologia assistiva e a representatividade transformam as transmissões ao vivo</p>
-      </div>
+    <main className="max-w-4xl mx-auto p-8 bg-stone-800 text-white rounded-lg leading-relaxed">
+      <h1 className="text-4xl font-bold text-blue-400 mb-8 border-b-2 border-blue-500 pb-4">Streaming e Inclusão: A Tecnologia que Quebra Barreiras</h1>
+    
+      <section className="mb-8">
+        <p className="mb-4">O universo do <strong>streaming de jogos</strong> cresceu vertiginosamente, tornando-se uma das maiores formas de entretenimento e conexão social do mundo. No entanto, o verdadeiro poder dessa revolução não está apenas nos números de audiência, mas na sua capacidade de promover a <strong>inclusão</strong>. Hoje, criadores de conteúdo com deficiência (PCD) ocupam esses espaços, mostrando que o mundo dos games é para todos.</p>
 
-      <p className="mb-[15px] justify">O ecossistema do streaming de jogos consolidou-se como um dos principais pilares do entretenimento global. Longe de ser apenas um espaço de lazer passivo, as transmissões ao vivo tornaram-se plataformas de socialização e construção de comunidades. No centro dessa evolução, destaca-se um movimento essencial de <strong>inclusão digital</strong>: criadores de conteúdo com deficiência (PCD) estão ressignificando as dinâmicas de gameplay e interação, superando barreiras geográficas e físicas através da inovação tecnológica.</p>
+        <div className="bg-blue-950 border-l-4 border-blue-500 p-4 italic my-6">
+          "A tecnologia assistiva transformou as transmissões ao vivo em palcos de representatividade, onde o talento supera qualquer limitação física."
+        </div>
+      </section>
 
-      <h2 className="text-lg 
-      text-[#1e3c72] 
-      bold
-      pl-[10px] 
-      mt-[30px] 
-      mb-[15px] 
-      border-l-[4px] 
-      border-[#3498db] ">A Engenharia por Trás do Gameplay Adaptativo</h2>
-      <p className="mb-[15px]">A presença ativa de streamers PCD no cenário atual só é possível graças ao avanço das <strong>tecnologias assistivas</strong>. Estas ferramentas traduzem comandos complexos de jogos eletrônicos para formatos compatíveis com as capacidades motoras, visuais ou auditivas de cada indivíduo, permitindo atuações em alto nível:</p>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold text-blue-400 mb-4">Como a Tecnologia Viabiliza o Jogo e a Transmissão</h2>
+        <p className="mb-4">Para que pessoas com diferentes tipos de deficiência possam jogar e transmitir em tempo real, a engenharia e o design inclusivo desempenham papéis fundamentais através de ferramentas inovadoras:</p>
 
-      <div className="grid grid-rows-2 gap-[20px] my-[20px]">
-          <div className="bg-[#e2e8f0] p-[20px] border-[6px] border-[#e2e8f0]">
-              <h3 className="mb-[10px] text-[17px] bold">Hardware Modular e Flexível</h3>
-              <p className="mb-[15px] justify">Dispositivos como o Xbox Adaptive Controller e o Access Controller da PlayStation funcionam como centrais adaptáveis. Eles permitem conectar botões gigantes, pedais e interruptores externos, distribuindo os comandos tradicionais para as partes do corpo onde o usuário possui maior mobilidade.</p>
-          </div>
-          <div className="bg-[#e2e8f0] p-[20px] border-[6px] border-[#e2e8f0]">
-              <h3 className="mb-[10px] text-[17px] bold">Sistemas de Sopro e Sucção</h3>
-              <p className="mb-[15px] justify">O sistema QuadStick é amplamente utilizado por jogadores com tetraplegia. Ele traduz movimentos labiais e a pressão do ar (sopro e sucção) em comandos analógicos e digitais precisos, viabilizando o controle total de jogos complexos sem o uso das mãos.</p>
-          </div>
-      </div>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Controles Adaptáveis:</strong> Dispositivos como o <em>Xbox Adaptive Controller</em> e o <em>Access Controller</em> do PlayStation funcionam como hubs, permitindo a conexão de botões gigantes, pedais e analógicos acionados por qualquer parte do corpo.</li>
+          <li><strong>Sistemas de Sopro e Sucção (QuadStick):</strong> Jogadores com tetraplegia utilizam tubos conectados a sensores de pressão e posição dos lábios, controlando os personagens na tela com o sopro e movimentos da boca.</li>
+          <li><strong>Rastreamento Ocular (Eye Tracking):</strong> Softwares avançados permitem que o criador de conteúdo controle o jogo ou interaja com o chat da transmissão apenas movendo os olhos.</li>
+          <li><strong>Softwares de Acessibilidade ao Vivo:</strong> Leitores de tela inteligentes que transformam o chat em áudio e legendas automáticas em tempo real garantem que streamers cegos ou surdos interajam perfeitamente com sua comunidade.</li>
+        </ul>
+      </section>
 
-      <p className="mb-[15px] justify">Além do hardware, o <strong>rastreamento ocular (Eye Tracking)</strong> avançou a ponto de permitir que comandos rápidos sejam feitos apenas com o movimento dos olhos. No âmbito do software, ferramentas de inteligência artificial que geram legendas automáticas em tempo real e leitores de tela otimizados possibilitam que streamers surdos ou cegos interajam com o chat e gerenciem suas transmissões com total autonomia.</p>
-
-      <h2 className="text-lg 
-      text-[#1e3c72] 
-      bold
-      pl-[10px] 
-      mt-[30px] 
-      mb-[15px] 
-      border-l-[4px] 
-      border-[#3498db] ">O Impacto Cultural e o Design Universal</h2>
-      <p className="mb-[15px] justify">A atuação desses criadores gera um impacto que ultrapassa o entretenimento individual, impulsionando transformações em toda a indústria:</p>
-      
-      <ul className="my-[15px] pl-[20px]">
-          <li className="mb-[10px]"><strong>Fomento ao Design Universal:</strong> A visibilidade de streamers jogando de formas diversas pressiona estúdios a incluírem, nativamente, opções robustas de acessibilidade nos jogos, como remapeamento completo de botões, modos para daltonismo e pistas visuais para áudio.</li>
-          <li className="mb-[10px]"><strong>Desconstrução de Estigmas:</strong> Ao exibirem suas rotinas e habilidades para milhares de espectadores diários, os criadores desmistificam a imagem da pessoa com deficiência, promovendo uma cultura focada na competência e no carisma.</li>
-          <li className="mb-[10px]"><strong>Criação de Redes de Apoio:</strong> Canais inclusivos tornam-se portos seguros para espectadores que compartilham das mesmas condições físicas ou neurológicas, oferecendo referências de representatividade.</li>
-      </ul>
-
-      <div className="bg-[#eef2f7] border-l-[4px] border-[#2a5298] p-[20px] mt-[30px] mb-[10px] border-6px">
-          <p className="m-0 italic"><strong>Perspectiva de Futuro:</strong> A inclusão no streaming demonstra que a acessibilidade não é um recurso secundário, mas sim um elemento fundamental para a democratização do espaço digital. O futuro das transmissões reside na capacidade de acolher a pluralidade humana, garantindo que a tecnologia sirva como uma ponte para o talento, e nunca como uma barreira.</p>
-      </div>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold text-blue-400 mb-4">O Impacto da Representatividade</h2>
+        <p>Ao ocuparem plataformas como Twitch e YouTube, esses criadores não estão apenas jogando: eles estão educando o público, normalizando a deficiência e cobrando da indústria de jogos menus e mecânicas mais acessíveis. O streaming inclusivo prova que, com as ferramentas certas, a paixão pelos games é o único requisito necessário para brilhar na tela.</p>
+      </section>
     </main>
-  )}
+  )
+}

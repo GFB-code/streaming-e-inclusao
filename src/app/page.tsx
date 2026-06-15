@@ -7,14 +7,18 @@ import Page from "@/data/Page";
 
 export default function Home() {
   return (
-    <div className="bg-neutral-500">
+    <main className="bg-neutral-600 min-h-screen text-white py-8 px-4">
       <Page />
-      <div className="flex flex-row m-auto">
-      <Artigo1 />
-      <Artigo2 />
-      <Artigo3 />
-      </div>
+      
+      <section className="max-w-6xl mx-auto py-8">
+        <div className="flex flex-col lg:flex-row gap-6 justify-center">
+          <Artigo1 />
+          <Artigo2 />
+          <Artigo3 />
+        </div>
+      </section>
+      
       <Rodape />
-    </div>
+    </main>
   );
 }
